@@ -1,8 +1,8 @@
-#include <string> //attention ‡ rajouter ce include
+#include <string> //attention √† rajouter ce include
 #include "math.h"
 #include <iostream>
 using namespace std;
-
+//modifi√© depuis github
 
 void dessinRectangle(int l, int h, string symbol) {
 	for (int ligne(0); ligne < h;ligne++) {
@@ -18,7 +18,7 @@ void echange(double a, double b)
 {
 	double temporaire(a); //On sauvegarde la valeur de 'a'
 	a = b;                //On remplace la valeur de 'a' par celle de 'b'
-	b = temporaire;       //Et on utilise la valeur sauvegardÈe pour mettre l'ancienne valeur de 'a' dans 'b'
+	b = temporaire;       //Et on utilise la valeur sauvegard√©e pour mettre l'ancienne valeur de 'a' dans 'b'
 }
 
 int main()
